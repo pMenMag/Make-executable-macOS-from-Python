@@ -33,7 +33,7 @@ jobs:
       # Step 4: Build the macOS executable using PyInstaller
       - name: Build executable
         run: |
-          pyinstaller --onefile --windowed --add-data "images/*;images" --name=my_app_name main.p
+          pyinstaller --onefile --windowed --add-data "images/*;images" --name=my_app_name main.py
 
         # The built executable will be in the `dist` directory
 
